@@ -1,0 +1,63 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Georgia;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.quiz-container {
+  width: 700px;
+  max-width: 70%;
+  background-color: pink;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+
+}
+.btn-grid{
+ display: grid;
+ gap: 15px;
+ margin: 20px 0;
+
+}
+
+.btn{
+  color: blueviolet;
+  outline: none;  
+  border-radius: 12px;
+  padding: 10px 20px;
+
+}
+
+.start-btn, .next-btn {
+  font-size: 2.0rem;
+  font-weight: bold;
+  padding: 10px 20px;
+
+}
+
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide{
+  display: none;
+}
+
+
+
+
+
